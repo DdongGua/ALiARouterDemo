@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.aliarouterdemo.MainActivity">
+
+    <Button
+       android:onClick="to_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go B "
+        />
+    <Button
+        android:onClick="to_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go C"/>
+
+</LinearLayout>
